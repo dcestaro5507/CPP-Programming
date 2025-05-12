@@ -17,7 +17,7 @@ int main() {
     cout << "5 / 2 is " << 5 / 2 << endl << endl;
 
     cout << "7 + (3 * 5) = " << 7 + (3 * 5) << endl;
-  
+    cout << "2 cubed is " << 2 * 2 * 2 << endl;
 
 
 
