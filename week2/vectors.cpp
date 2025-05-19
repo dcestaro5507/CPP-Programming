@@ -2,9 +2,11 @@
 #include <vector>
 using namespace std;
 
-void print(vector<int> v);
+void print(const vector<int>& v);
 
 void rotateRight(vector<int>& v, int k);
+// TODO
+// rotateLeft
 
 int main(){
     vector<int> v {1, 2, 3, 4, 5, 6};
@@ -21,7 +23,7 @@ int main(){
 }
 
 
-void print(vector<int> v) {
+void print(const vector<int>& v) {
     for(int i : v) {
         cout << i << ' ';
     }
